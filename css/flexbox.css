@@ -1,0 +1,65 @@
+/********************
+Media Queries
+*********************/
+
+@media (min-width: 720px) {
+
+    header,
+    #left,
+    #right {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+@media (min-width: 860px) {
+
+    header {
+        height: 80px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    h2 {
+        font-size: 5em;
+    }
+    
+} 
+
+@media (min-width: 1024px) {
+    h2 {
+        font-size: 5.5em;
+    }
+
+    #wrapper {
+        width: 80%;
+        margin: auto;
+        
+    }
+
+    .col {
+        width: 45%;
+        margin-right: 0;
+        margin-left: 5%;
+    }
+
+    .primary-section img {
+        margin-top: -50px;
+    }
+
+
+    .primary-section {
+        float: left;
+    }
+
+    .secondary-section {
+        float: right;
+    }
+}

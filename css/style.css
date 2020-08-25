@@ -1,0 +1,125 @@
+/**********************
+General
+**********************/
+
+body {
+    background: #f1f1f1;
+    color: #292929;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+h4 {
+    font-style: italic;
+}
+
+
+h2 {
+    font-size: 5em;
+}
+
+
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/**********************
+Navigation
+**********************/
+
+.profile_photo {
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    margin-left: 10px;
+    margin-bottom: -15px;  /* this center aligns the profile picture with the user name */
+} 
+
+
+
+.user_name {
+    display: inline;  /*to bring the username on the same line with the profile picture */
+}
+
+.profile {
+    margin-top: -10px; /*to bring the username on the same line with the profile picture by shifting it up */
+}
+
+.search_button,
+.cart_logo {
+    width: 20px;
+}
+
+.search_button,
+.cart_logo,
+.user_name {
+    font-weight: bold;
+}
+
+
+header {
+    text-align: center;
+    background: #fff;
+}
+
+header ul li a {
+    padding: 7px;
+    color: #292929;
+    font-weight: bolder;
+}
+
+header ul li a:hover {
+    color: lawngreen;
+}
+
+header ul li a:visited {
+    color: lawngreen;
+}
+
+header ul {
+    padding: 15px;
+}
+
+header ul li {
+    padding: 10px;
+}
+
+/**********************
+Content
+**********************/
+
+.pics {
+    max-width: 100%;
+    margin: 15px 0;
+}
+
+#wrapper {
+    width: 70%;
+    margin: 0 15%;
+}
+
+.col {
+    margin-bottom: 50px;
+}
+
+.primary-section,
+.primary-section img {
+    margin-top: -20px;
+}
+
+
+
+
+
+
+
+
